@@ -1,0 +1,298 @@
+    .html {
+        font-size: 16px;
+        background-color: whitesmoke;
+    }
+    
+    header {
+        font-family: satisfy;
+        background-color: #613941;
+        color: white;
+        min-height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 4px;
+        word-spacing: 2px;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        border-bottom: 3px solid rgb(133, 123, 123);
+        box-shadow: rgba(0, 0, 0, 0.177) 0px 22px 70px 4px;
+    }
+    
+    nav {
+        min-height: 60px;
+        display: flex;
+        align-items: center;
+        background-image: linear-gradient(to right, whitesmoke, #6139413a);
+    }
+    
+    nav .logo {
+        width: 70px;
+        height: 50px;
+        border-radius: 50%;
+        margin-left: 10px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+    }
+    
+    .logo:hover {
+        transform: rotate(360deg);
+    }
+    
+    .main-nav {
+        width: 96%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        font-family: satisfy;
+    }
+    
+    .main-nav li a {
+        text-decoration: none;
+        margin-right: 50px;
+        color: #613941;
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    
+    .main-nav li a:hover {
+        color: #6139414d;
+        text-decoration: underline;
+    }
+    
+    .one {
+        height: 600px;
+        background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.423)), url(../uploads/pexels-анастасия-8365688.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 20px;
+    }
+    
+    h1 {
+        color: rgba(255, 255, 255, 0.607);
+        font-size: 2.5rem;
+        font-weight: 300;
+        word-spacing: 5px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        margin-top: 30px;
+        line-height: 1.8;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+    
+    h2 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 2rem;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+        color: darkred;
+        margin: 40px 0px;
+    }
+    
+    h2::after {
+        content: "";
+        width: 200px;
+        height: 5px;
+        background-color: olive;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    .feature-disc {
+        margin: 30px auto;
+        width: 800px;
+        text-align: center;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        font-weight: 200;
+    }
+    
+    .feat {
+        text-align: center;
+    }
+    
+    .feat i {
+        color: darkred;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    
+    .feat h4 {
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: darkred;
+    }
+    
+    .sells {
+        text-align: center;
+    }
+    
+    .sells h5 {
+        font-size: 20px;
+        text-decoration: underline;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: darkred;
+    }
+    
+    .sells h6,
+    .branch h6 {
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: darkred;
+    }
+    
+    .sells p {
+        text-transform: capitalize;
+        word-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 30px;
+    }
+    
+    .branch {
+        text-align: center;
+    }
+    
+    .branch img {
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .branch p {
+        text-transform: capitalize;
+        word-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 19px;
+        font-weight: bolder;
+        color: olive;
+    }
+    
+    .branch .review {
+        margin-top: 20px;
+    }
+    
+    .branch i {
+        font-size: 20px;
+        color: olive;
+    }
+    
+    .branch span {
+        font-size: 20px;
+        color: olive;
+        text-transform: capitalize;
+    }
+    
+    a {
+        text-align: center;
+        margin: auto;
+        /*note*/
+        text-decoration: underline;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        color: darkred;
+    }
+    
+    .contacts {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.405)), url(../uploads/form\ perfume.jpg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .contact-col img {
+        width: 30%;
+        /*margin-bottom: 10px;
+        */
+        margin-top: 50px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 3px 3px olive, -2px -2px 3px 3px darkred;
+    }
+    
+    .contact-col {
+        text-align: center;
+    }
+    
+    form {
+        padding-top: 60px
+    }
+    
+    label {
+        margin-top: 40px;
+        margin-left: 40%;
+        text-transform: capitalize;
+        color: rgba(255, 255, 255, 0.34);
+        font-size: 20px;
+    }
+    
+    input,
+    select {
+        width: 60%;
+        margin-bottom: 7px;
+        padding: 7px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+        border: solid 1px #ccc;
+        caret-color: #A3573D;
+        opacity: .5;
+    }
+    
+    textarea {
+        width: 60%;
+        caret-color: #A3573D;
+        border-radius: 20px;
+        -webkit-border-radius: 4px 20px 4px 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        opacity: .5;
+    }
+    
+    button {
+        padding: 10px;
+        background-color: olive;
+        color: #fff;
+        margin: 7px;
+        margin-left: 30%;
+        margin-bottom: 20px;
+        width: 30%;
+        border: 2px solid #fff;
+        border-radius: 4px 20px 4px 20px;
+        text-align: center;
+    }
+    
+    button:hover {
+        background-color: #fff;
+        color: olive;
+    }
+    
+    footer {
+        background-color: rgb(54, 50, 50);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        margin-top: 20px;
+    }
+    
+    footer i {
+        width: 100%;
+        font-size: 20px;
+    }
